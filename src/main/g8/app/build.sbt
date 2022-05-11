@@ -30,6 +30,8 @@ lazy val app = project
     ),
     libraryDependencies ++= Seq(
       "io.circe" %%% "circe" % "$circeVersion$",
-      "io.circe" %%% "circe-generic" % "$circeVersion$"
+      "io.circe" %%% "circe-generic" % "$circeVersion$",
+      "org.http4s" %%% "http4s-core" % "$http4sVersion$",
+      "org.http4s" %%% "http4s-dsl" % "$http4sVersion$"
     )
   )

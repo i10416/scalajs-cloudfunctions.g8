@@ -3,10 +3,20 @@
 
 A [Giter8][g8] template for ScalaJS on GCP Cloud Functions with GitHub Actions CI/CD
 
+## How to Use
 
 ```sh
 g8 i10416/scalajs-cloudfunctions.g8
 ```
+
+And follow generated guide in README
+
+## How to contribute?
+
+- Give it a star⭐
+- Drop the feedback to the author @i10416
+- Send a PR with fixes of typos/bugs/etc🐛
+
 
 ## Template license
 Written in 2022 by Yoichiro Ito (contact.110416+scalajsgcpcf@gmail.com)

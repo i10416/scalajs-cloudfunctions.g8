@@ -1,3 +1,6 @@
+# Warn. Do Not Include variables.tfvars to VCS.
+# On CI/CD, use TF_VAR_<variable_name> instread.
+
 project_id      = "$GCPProjectID$"
 function_name   = "$functionName$"
 function_bucket = "$functionBucket$"

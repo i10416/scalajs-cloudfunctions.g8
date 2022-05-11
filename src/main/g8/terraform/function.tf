@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "gcs" {
-    # edit these fields
+    # edit these fields if necessary
     bucket = "$tfstateBucketName$"
     prefix = "tfstate/functions/$functionName$"
   }
